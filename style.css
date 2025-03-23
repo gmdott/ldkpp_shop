@@ -92,6 +92,10 @@ header .rabbit {
     display: flex;
 }
 
+.carousel {
+    width: 100%;
+}
+
 .carousel-item img {
     height: 500px;
     margin: auto;
@@ -124,13 +128,21 @@ header .rabbit {
     margin-top: 50px;
     text-align: center;
     font-family: "Kirang Haerang" !important;
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card img {
     -webkit-box-shadow: -1px -9px 24px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px -9px 24px -8px rgba(0,0,0,0.75);
     box-shadow: -1px -9px 24px -8px rgba(0,0,0,0.75);
+    object-fit: cover;
+    height: 242px;
 }
+
 
 .card h1 {
     color:rgb(240, 204, 1);
@@ -150,6 +162,7 @@ header .rabbit {
     border: none;
     color: #000;
     width: 80%;
+    font-size: 24px;
 }
 
 .card .btn:hover {
