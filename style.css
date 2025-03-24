@@ -115,8 +115,9 @@ header .rabbit {
 .products {
     margin: auto;
     margin-bottom: 4rem;
-    width: 80%;
+    width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .rabbitBack {
@@ -129,6 +130,7 @@ header .rabbit {
     text-align: center;
     font-family: "Kirang Haerang" !important;
     transition: 0.5s ease;
+    border: none;
 }
 
 .card:hover {
