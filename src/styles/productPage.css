@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: red;
+    width: 90%;
+    height: 800px;
+}
